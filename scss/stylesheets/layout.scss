@@ -4,10 +4,9 @@ header {
 
 .navbar .navbar-brand {
   color: #4592af;
-}
-
-.navbar .navbar-brand:hover {
-  color: #226089;
+  &:hover {
+    color: #226089;
+  }
 }
 
 .banner {

@@ -33,19 +33,26 @@ header {
   color: #aaaaaa;
   font-size: 0.8rem; }
 
-.btn-major {
-  background-color: #9b4b4b;
-  color: white; }
-
 .form-control:focus {
   box-shadow: none;
   border-color: #ced4da; }
 
+.btn-major {
+  background-color: #9b4b4b;
+  color: white; }
+
 .card {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); }
+  .card img {
+    height: 180px; }
 
-.card img {
-  height: 180px; }
+@media screen and (max-width: 992px) {
+  .card img {
+    height: 115px; } }
+
+@media screen and (max-width: 575px) {
+  .card img {
+    height: auto; } }
 
 .card-title {
   overflow: hidden;
@@ -64,14 +71,6 @@ header {
   font-size: 3rem;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
-@media screen and (max-width: 992px) {
-  .card img {
-    height: 115px; } }
-
 @media screen and (max-width: 768px) {
   .restaurant-show-title {
     font-size: 2rem; } }
-
-@media screen and (max-width: 575px) {
-  .card img {
-    height: auto; } }
