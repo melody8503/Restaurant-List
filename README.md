@@ -1,7 +1,6 @@
 # 餐廳清單
 
 ![image](https://github.com/melody8503/Restaurant-List/blob/main/public/image/restaurantList.png)
-[Restaurant List](https://melody8503.github.io/Restaurant-List/)
 
 ### 介紹
 
